@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+    <style>
+      table,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th {
+        /* padding: 20px; */
+        float: left;
+      }
+      td {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <table>
+        <h2>colspan</h2>
+        <tr>
+          <th colspan="3">Userinfo</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>John Carter</td>
+          <td>john@gmail.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ram</td>
+          <td>ram@gmail.com</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Shyam</td>
+          <td>shyam@gmail.com</td>
+        </tr>
+      </table>
+      <table>
+        <h2>rowspan</h2>
+        <tr>
+          <td rowspan="4">Userinfo</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>John Carter</td>
+          <td>john@gmail.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ram</td>
+          <td>ram@gmail.com</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Shyam</td>
+          <td>shyam@gmail.com</td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>

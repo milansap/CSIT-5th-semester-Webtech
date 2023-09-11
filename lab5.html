@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <style>
+      form {
+        border: 1px solid black;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Google Map</h1>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d226323.4576392555!2d85.5113728!3d27.5841024!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1692800726624!5m2!1sen!2snp"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <h2>Lab 6</h2>
+    <div style="text-align: center">
+      <form action="">
+        <label for="fname">First Name:</label>
+        <input type="text" name="firstname" id="fname" />
+        <br /><br />
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lastname" id="lname" />
+        <br /><br />
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+        <br /><br />
+        <label for="date">Birth Date:</label>
+        <input type="date" name="bdate" id="date" />
+        <br /><br />
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" />
+        <br /><br />
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="g1" />
+        <label for="g1">Male</label>
+        <input type="radio" name="gender" id="g2" />
+        <label for="g2">Female</label>
+        <input type="radio" name="gender" id="g3" />
+        <label for="g3">Others</label>
+        <br /><br />
+        <label for="">Courses that i want to join for:</label>
+        <input type="checkbox" name="course1" id="c1" />
+        <label for="c1">C</label>
+        <input type="checkbox" name="course2" id="c2" />
+        <label for="c2">C++</label>
+        <input type="checkbox" name="course3" id="c3" />
+        <label for="c3">JAVA</label>
+        <input type="checkbox" name="course4" id="c4" />
+        <label for="c4">javascript</label>
+        <br /><br />
+        <label for="s1">Payment:</label>
+        <select name="" id="s1">
+          <option value="">VISA</option>
+          <option value="">Cash</option>
+          <option value="">Credit Card</option>
+        </select>
+        <br /><br />
+        <label for="a1">Your Feedback:</label>
+        <br />
+        <textarea name="area" id="a1" cols="30" rows="10"></textarea>
+        <br /><br />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
